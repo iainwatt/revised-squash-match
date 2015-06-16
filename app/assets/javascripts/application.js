@@ -10,10 +10,14 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require angular/angular
+//= require angular-route/angular-route
+//= require angular-rails-templates
 //= require jquery
 //= require jquery_ujs
-//= require twitter/bootstrap
+//= require bootstrap-sass-official
 //= require_tree .
-//= require angular/angular
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap-sprockets";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+
+// @import "bootstrap-sass-official/assets/stylesheets/bootstrap-sprockets";
+// @import "bootstrap-sass-official/assets/stylesheets/bootstrap";

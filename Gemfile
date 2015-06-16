@@ -15,7 +15,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gems added 
 
 gem 'bower-rails'
-
+gem 'angular-rails-templates'
+gem 'sprockets', '~> 2.0'
 
 
 
