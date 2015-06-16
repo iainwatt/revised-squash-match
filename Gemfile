@@ -13,7 +13,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # gems added 
-gem "twitter-bootstrap-rails"
+
+gem 'bower-rails'
 
 
 
@@ -23,6 +24,11 @@ group :development, :test do
   gem 'byebug'
   gem 'pry-rails'
   gem 'pry-byebug'
+  gem "rspec-rails", "~> 2.0"
+	gem "factory_girl_rails", "~> 4.0"
+  gem "capybara"
+  gem "database_cleaner"
+  gem "selenium-webdriver"
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
